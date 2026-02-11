@@ -109,8 +109,12 @@ export default function Index() {
                 <span className="text-5xl text-red-600 block mb-2">私について</span>
                 <h2 className="text-6xl font-bold tracking-tighter">ОБО МНЕ</h2>
               </div>
-              <div className="aspect-[4/5] bg-neutral-100 relative mb-8 md:mb-0 rounded-full flex items-center justify-center">
-                <div className="text-9xl">和</div>
+              <div className="aspect-[4/5] bg-neutral-100 relative mb-8 md:mb-0 rounded-3xl overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/dabd2b83-d148-4a56-86c9-f7452b019557/bucket/597ca80b-3900-4fe6-b1ae-b18555076135.jpg" 
+                  alt="О коллекционере" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             <div className="col-span-12 md:col-span-7 md:pt-24">
@@ -122,6 +126,9 @@ export default function Index() {
               </p>
               <p className="mb-6">
                 В моей коллекции — фурисодэ для особых случаев, томесодэ для формальных церемоний, хомонги для элегантных приёмов. Все изделия винтажные, в идеальном состоянии, с историей и душой.
+              </p>
+              <p className="mb-6">
+                Я специалист в области моды и стиля, и могу научить вас легко сочетать кимоно с современной модой. Винтажное кимоно не обязательно носить традиционно — оно прекрасно дополняет современный гардероб, создавая уникальные образы на стыке культур и эпох.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-12">
                 <div>
