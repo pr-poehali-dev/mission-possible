@@ -4,18 +4,21 @@ export default function Index() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-black">
         <div className="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
-          <a href="/" className="text-xl font-bold tracking-tighter">
-            GRIDFORM
+          <a href="/" className="flex items-center">
+            <img src="https://cdn.poehali.dev/projects/dabd2b83-d148-4a56-86c9-f7452b019557/bucket/563c18ba-3877-4cb3-b16b-02651337b23b.jpg" alt="Логотип" className="h-12 w-auto" />
           </a>
-          <div className="flex space-x-8">
-            <a href="#work" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
-              Работы
+          <div className="flex space-x-8 items-center">
+            <a href="#collection" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
+              Коллекция
             </a>
             <a href="#about" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
-              О нас
+              Обо мне
             </a>
             <a href="#contact" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
               Контакты
+            </a>
+            <a href="https://t.me/+Rikgi84QYAA5MjMy" target="_blank" rel="noopener noreferrer" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
+              Telegram
             </a>
           </div>
         </div>
@@ -25,13 +28,15 @@ export default function Index() {
       <section className="pt-32 pb-20 px-4 md:px-8 container mx-auto">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-7 mb-8 md:mb-0">
-            <h1 className="text-8xl md:text-9xl font-bold tracking-tighter leading-none mb-6">
-              GRID
+            <h1 className="text-7xl md:text-8xl font-bold tracking-tighter leading-none mb-6">
+              ВИНТАЖНЫЕ
               <br />
-              FORM
+              КИМОНО
+              <br />
+              ИЗ ЯПОНИИ
             </h1>
             <p className="text-xl max-w-xl">
-              Ясность. Точность. Структура. Мы превращаем сложные идеи в чистый, функциональный дизайн, который говорит сам за себя.
+              Эксклюзивные японские кимоно с аукционов. Каждое изделие — часть истории. Редкие находки для ценителей японской культуры и стиля.
             </p>
           </div>
           <div className="col-span-12 md:col-span-5 flex items-center justify-center">
@@ -42,10 +47,10 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Work Section */}
-      <section id="work" className="py-20 px-4 md:px-8 bg-black text-white">
+      {/* Collection Section */}
+      <section id="collection" className="py-20 px-4 md:px-8 bg-black text-white">
         <div className="container mx-auto">
-          <h2 className="text-6xl font-bold tracking-tighter mb-12">РАБОТЫ</h2>
+          <h2 className="text-6xl font-bold tracking-tighter mb-12">КОЛЛЕКЦИЯ</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
@@ -55,8 +60,8 @@ export default function Index() {
                   <span className="text-black text-8xl font-bold">01</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">TechFlow Solutions</h3>
-              <p className="text-neutral-400">Полный брендинг и типографическая система для финтех-стартапа</p>
+              <h3 className="text-xl font-bold mb-2">Фурисодэ эпохи Тайсё</h3>
+              <p className="text-neutral-400">Церемониальное кимоно 1920-х годов. Шёлк, ручная роспись, журавли и цветущая сакура</p>
             </div>
 
             {/* Project 2 */}
@@ -66,8 +71,8 @@ export default function Index() {
                   <span className="text-black text-8xl font-bold">02</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">Alpine Ventures</h3>
-              <p className="text-neutral-400">Минималистичная визуальная коммуникация для инвестиционного фонда</p>
+              <h3 className="text-xl font-bold mb-2">Томесодэ с бамбуком</h3>
+              <p className="text-neutral-400">Формальное кимоно 1950-х годов. Чистый шёлк, геометрический орнамент с бамбуком</p>
             </div>
 
             {/* Project 3 */}
@@ -77,8 +82,8 @@ export default function Index() {
                   <span className="text-black text-8xl font-bold">03</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">Nova Industries</h3>
-              <p className="text-neutral-400">Модульная дизайн-система для производственной компании</p>
+              <h3 className="text-xl font-bold mb-2">Хомонги с ирисами</h3>
+              <p className="text-neutral-400">Элегантное кимоно 1960-х годов. Натуральный шёлк, вышивка золотыми нитями</p>
             </div>
           </div>
         </div>
@@ -89,38 +94,38 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-8">
             <div className="col-span-12 md:col-span-5">
-              <h2 className="text-6xl font-bold tracking-tighter mb-8">О НАС</h2>
+              <h2 className="text-6xl font-bold tracking-tighter mb-8">ОБО МНЕ</h2>
               <div className="aspect-[4/5] bg-neutral-100 relative mb-8 md:mb-0">
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 border-2 border-black"></div>
               </div>
             </div>
             <div className="col-span-12 md:col-span-7 md:pt-24">
               <p className="text-xl mb-6">
-                GRIDFORM - дизайн-студия, преданная принципам ясности, точности и осмысленной коммуникации. Мы верим, что великий дизайн незаметен - он просто работает.
+                Я коллекционирую и продаю аутентичные японские кимоно, выкупая их на закрытых аукционах в Японии. Каждое изделие — это история, воплощённая в шёлке.
               </p>
               <p className="mb-6">
-                Наш подход основан на системном мышлении и типографическом мастерстве. Мы используем модульные сетки, чистую гротескную типографику, асимметричные композиции и предметную фотографию для создания дизайна, который говорит ясно и убедительно.
+                Моя страсть к японской культуре началась более 20 лет назад. За это время я научилась разбираться в эпохах, техниках окрашивания и символике орнаментов. Каждое кимоно проходит строгий отбор по качеству, редкости и художественной ценности.
               </p>
               <p className="mb-6">
-                Основанная дизайнерами, убежденными, что форма следует за функцией, мы сотрудничаем с прогрессивными брендами, создавая визуальные языки, которые проверены временем.
+                В моей коллекции — фурисодэ для особых случаев, томесодэ для формальных церемоний, хомонги для элегантных приёмов. Все изделия винтажные, в идеальном состоянии, с историей и душой.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-12">
                 <div>
-                  <h3 className="text-sm uppercase tracking-widest mb-2">Принципы</h3>
+                  <h3 className="text-sm uppercase tracking-widest mb-2">Специализация</h3>
                   <ul className="space-y-2">
-                    <li>Минимализм</li>
-                    <li>Модульные сетки</li>
-                    <li>Гротескная типографика</li>
-                    <li>Предметная фотография</li>
+                    <li>Фурисодэ (церемониальные)</li>
+                    <li>Томесодэ (формальные)</li>
+                    <li>Хомонги (полуформальные)</li>
+                    <li>Эпохи Тайсё - Сёва</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-sm uppercase tracking-widest mb-2">Услуги</h3>
                   <ul className="space-y-2">
-                    <li>Брендинг</li>
-                    <li>Визуальные системы</li>
-                    <li>Типографика</li>
-                    <li>Цифровой дизайн</li>
+                    <li>Подбор кимоно</li>
+                    <li>Экспертная оценка</li>
+                    <li>Доставка из Японии</li>
+                    <li>Консультации</li>
                   </ul>
                 </div>
               </div>
@@ -135,23 +140,17 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
               <h2 className="text-6xl font-bold tracking-tighter mb-8">КОНТАКТЫ</h2>
-              <p className="text-xl mb-8">Заинтересованы в сотрудничестве? Давайте обсудим ваш проект.</p>
+              <p className="text-xl mb-8">Интересует винтажное кимоно? Напишите мне — подберу идеальное изделие из коллекции или привезу на заказ из Японии.</p>
               <div className="space-y-4">
                 <p className="flex items-center">
-                  <span className="w-24 text-sm uppercase tracking-widest">Почта</span>
-                  <a href="mailto:hello@gridform.ru" className="hover:underline">
-                    hello@gridform.ru
+                  <span className="w-24 text-sm uppercase tracking-widest">Telegram</span>
+                  <a href="https://t.me/+Rikgi84QYAA5MjMy" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    Написать в Telegram
                   </a>
                 </p>
                 <p className="flex items-center">
-                  <span className="w-24 text-sm uppercase tracking-widest">Телефон</span>
-                  <a href="tel:+74951234567" className="hover:underline">
-                    +7 (495) 123-45-67
-                  </a>
-                </p>
-                <p className="flex items-center">
-                  <span className="w-24 text-sm uppercase tracking-widest">Адрес</span>
-                  <span>Москва, Россия</span>
+                  <span className="w-24 text-sm uppercase tracking-widest">География</span>
+                  <span>Работаю по всему миру</span>
                 </p>
               </div>
             </div>
@@ -159,24 +158,24 @@ export default function Index() {
               <form className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm uppercase tracking-widest mb-2">
-                    Имя
+                    Ваше имя
                   </label>
                   <input
                     type="text"
                     id="name"
                     className="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50"
-                    placeholder="Ваше имя"
+                    placeholder="Как к вам обращаться"
                   />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm uppercase tracking-widest mb-2">
-                    Почта
+                    Контакт
                   </label>
                   <input
-                    type="email"
+                    type="text"
                     id="email"
                     className="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50"
-                    placeholder="Ваш email"
+                    placeholder="Email или Telegram"
                   />
                 </div>
                 <div>
@@ -187,7 +186,7 @@ export default function Index() {
                     id="message"
                     rows={4}
                     className="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50"
-                    placeholder="Ваше сообщение"
+                    placeholder="Что вас интересует?"
                   ></textarea>
                 </div>
                 <button
@@ -205,7 +204,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="py-8 px-4 md:px-8 bg-black text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm mb-4 md:mb-0">2025 GRIDFORM Studio. Все права защищены.</p>
+          <p className="text-sm mb-4 md:mb-0">Коллекция винтажных кимоно из Японии</p>
           <div className="flex space-x-8">
             <a href="#" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
               Instagram
