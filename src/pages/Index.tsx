@@ -61,10 +61,11 @@ export default function Index() {
             {/* Project 1 */}
             <div className="group">
               <div className="aspect-square bg-white mb-4 overflow-hidden relative">
-                <div className="w-full h-full flex flex-col items-center justify-center bg-neutral-100 group-hover:bg-red-600 transition-colors duration-300">
-                  <span className="text-black text-8xl font-bold group-hover:text-white transition-colors">01</span>
-                  <span className="text-black text-3xl mt-4 group-hover:text-white transition-colors">振袖</span>
-                </div>
+                <img 
+                  src="https://cdn.poehali.dev/projects/dabd2b83-d148-4a56-86c9-f7452b019557/bucket/4f466856-c3da-4a77-91e6-b18132a5215b.jpg" 
+                  alt="Фурисодэ эпохи Тайсё" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">Фурисодэ эпохи Тайсё</h3>
               <p className="text-neutral-400">Церемониальное кимоно 1920-х годов. Шёлк, ручная роспись, журавли и цветущая сакура</p>
@@ -73,10 +74,11 @@ export default function Index() {
             {/* Project 2 */}
             <div className="group">
               <div className="aspect-square bg-white mb-4 overflow-hidden relative">
-                <div className="w-full h-full flex flex-col items-center justify-center bg-neutral-100 group-hover:bg-red-600 transition-colors duration-300">
-                  <span className="text-black text-8xl font-bold group-hover:text-white transition-colors">02</span>
-                  <span className="text-black text-3xl mt-4 group-hover:text-white transition-colors">留袖</span>
-                </div>
+                <img 
+                  src="https://cdn.poehali.dev/projects/dabd2b83-d148-4a56-86c9-f7452b019557/bucket/423b206a-583b-485a-a65a-4985a885528e.jpg" 
+                  alt="Томесодэ с бамбуком" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">Томесодэ с бамбуком</h3>
               <p className="text-neutral-400">Формальное кимоно 1950-х годов. Чистый шёлк, геометрический орнамент с бамбуком</p>
@@ -85,10 +87,11 @@ export default function Index() {
             {/* Project 3 */}
             <div className="group">
               <div className="aspect-square bg-white mb-4 overflow-hidden relative">
-                <div className="w-full h-full flex flex-col items-center justify-center bg-neutral-100 group-hover:bg-red-600 transition-colors duration-300">
-                  <span className="text-black text-8xl font-bold group-hover:text-white transition-colors">03</span>
-                  <span className="text-black text-3xl mt-4 group-hover:text-white transition-colors">訪問着</span>
-                </div>
+                <img 
+                  src="https://cdn.poehali.dev/projects/dabd2b83-d148-4a56-86c9-f7452b019557/bucket/2b2dfa8f-ba2b-4402-b37a-d8a7cd088cb0.jpg" 
+                  alt="Хомонги с ирисами" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">Хомонги с ирисами</h3>
               <p className="text-neutral-400">Элегантное кимоно 1960-х годов. Натуральный шёлк, вышивка золотыми нитями</p>
